@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  margin:24px auto;
+  list-style: none;
+  max-width: 1130px;
+}
+
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
